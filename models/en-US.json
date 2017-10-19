@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "grocerygallery",
+      "intents": [
+        {
+          "name": "AddGroceryItemIntent",
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food",
+              "samples": []
+            }
+          ],
+          "samples": [
+            "add {food} to my grocery list",
+            "add {food} to grocery",
+            "put {food} on my grocery list",
+            "put {food} on grocery",
+            "put {food} on the grocery list"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetGroceryItemsIntent",
+          "samples": [
+            "What's in my grocery list",
+            "What groceries do I have have",
+            "grocery list"
+          ]
+        },
+        {
+          "name": "ShowFridgeItemsIntent",
+          "samples": [
+            "What's in my fridge",
+            "Fridge list",
+            "My fridge"
+          ]
+        }
+      ]
+    }
+  }
+}
